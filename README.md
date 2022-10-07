@@ -1,5 +1,3 @@
-# with_ERDs
-
 | 분류 | title | Refer | Codes |
 | ----- | --- | ------ | ------ |
 | 엑셀로 이해하는 ERD |  Users_Auths  | [google sheet](https://docs.google.com/spreadsheets/d/1dqRAKg9Hl7gOh1Ggjj5Q5eGea8fMjyO5/edit#gid=1779620113) | [ERD kor](./projects/excel_erds/Users_Auths_kor.vuerd), [ERD](./projects/excel_erds/Users_Auths.vuerd) |
