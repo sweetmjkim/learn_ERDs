@@ -6,5 +6,5 @@
 | 공지사항  | 정부공공데이터 | [site uri](https://www.data.go.kr/bbs/ntc/selectNoticeListView.do), [google sheet](https://docs.google.com/spreadsheets/d/1cJJPa-qk2dksuycV0tuls2zGP2G--iQXoqDrPXviny0/edit#gid=0) | [ERD](./projects/excel_erds/Notice.vuerd) |
 | 선한 영향력 | good_influences | [google sheet](https://docs.google.com/spreadsheets/d/19w5WcWmFKs9F3pd3kHcMlyyStuiOnZ1-/edit#gid=734761325) | [ERD](./projects/excel_erds/Good_Influences/Good_Influences.vuerd), [NamingRule](./projects/excel_erds/Good_Influences/Good_Influences_Naming_Rules.pdf) |
 | 반복(재귀-Recursive) | [조직도](https://www.klac.or.kr/images/organization_img_202202.jpg), [Bicycle BOM](https://mecaluxcom.cdnwm.com/blog/img/bom-bill-of-materials-bicycle.1.0.jpg) | [google sheet](https://docs.google.com/spreadsheets/d/1OotZbciNITSX_pRW3WBh_G0RAWRj4KyCZoPnWhaeYqc/edit#gid=1115783314) | |
-| 게시판  | [댓글 있는 다중 게시판](http://www.gasengi.com/community.php) |  | |
+| 다중 게시판  | [댓글 있는 다중 게시판](http://www.gasengi.com) |  | |
 | [설문](./projects/polls/) | 설문과 통계 | | MySQL과 [Pure Java](./projects/polls/codes/java/) 연동 |
