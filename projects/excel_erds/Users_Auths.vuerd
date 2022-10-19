@@ -3,8 +3,8 @@
     "version": "2.2.11",
     "width": 2000,
     "height": 2000,
-    "scrollTop": 0,
-    "scrollLeft": -110,
+    "scrollTop": -11.111110669595242,
+    "scrollLeft": -110.6944444168497,
     "zoomLevel": 1,
     "show": {
       "tableComment": true,
@@ -143,7 +143,7 @@
           "active": false,
           "left": 146.6671,
           "top": 65.8059,
-          "zIndex": 146,
+          "zIndex": 2,
           "widthName": 60,
           "widthComment": 60
         },
@@ -203,9 +203,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 139.5279,
-          "top": 282.5006,
-          "zIndex": 148,
+          "left": 131.5279,
+          "top": 306.5006,
+          "zIndex": 4,
           "widthName": 85.60498046875,
           "widthComment": 67
         },
@@ -265,9 +265,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 608.8614,
-          "top": 141.6391,
-          "zIndex": 133,
+          "left": 616.8614,
+          "top": 168.6391,
+          "zIndex": 5,
           "widthName": 60,
           "widthComment": 60
         },
@@ -300,8 +300,8 @@
           "columnIds": [
             "a206ab07-146c-4c68-955a-5a162a6f2cf9"
           ],
-          "x": 608.8614,
-          "y": 169.1391,
+          "x": 616.8614,
+          "y": 196.1391,
           "direction": "left"
         },
         "constraintName": "fk_users_to_auths",
@@ -317,8 +317,8 @@
           "columnIds": [
             "f3ce16e7-2da8-4d91-8cd5-e71eaef7a07d"
           ],
-          "x": 571.93756796875,
-          "y": 337.5006,
+          "x": 563.93756796875,
+          "y": 361.5006,
           "direction": "right"
         },
         "end": {
@@ -326,8 +326,8 @@
           "columnIds": [
             "c4160219-e343-4b53-befb-8d46d37411b7"
           ],
-          "x": 608.8614,
-          "y": 224.1391,
+          "x": 616.8614,
+          "y": 251.1391,
           "direction": "left"
         },
         "constraintName": "fk_autho_names_to_auths",
