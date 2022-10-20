@@ -101,7 +101,7 @@
               "autoIncrement": false,
               "primaryKey": false,
               "unique": false,
-              "notNull": true
+              "notNull": false
             },
             "ui": {
               "active": false,
@@ -120,7 +120,7 @@
           "active": false,
           "left": 39.1667,
           "top": 82.4998,
-          "zIndex": 1,
+          "zIndex": 5,
           "widthName": 103.9306640625,
           "widthComment": 60
         },
@@ -138,7 +138,7 @@
       {
         "identification": false,
         "relationshipType": "OneN",
-        "startRelationshipType": "Dash",
+        "startRelationshipType": "Ring",
         "start": {
           "tableId": "cf969985-04b7-4aa7-9240-31a3c1c7eeb0",
           "columnIds": [

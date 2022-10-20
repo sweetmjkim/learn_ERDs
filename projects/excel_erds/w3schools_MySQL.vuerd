@@ -3,9 +3,9 @@
     "version": "2.2.11",
     "width": 2000,
     "height": 2000,
-    "scrollTop": -213.6666609711117,
-    "scrollLeft": -201.17189089457094,
-    "zoomLevel": 0.8,
+    "scrollTop": -126.6666609711117,
+    "scrollLeft": -143.17189089457088,
+    "zoomLevel": 0.9,
     "show": {
       "tableComment": true,
       "columnComment": true,
@@ -44,7 +44,7 @@
     "tables": [
       {
         "name": "Products",
-        "comment": "생산",
+        "comment": "제품들",
         "columns": [
           {
             "name": "ProductID",
@@ -189,7 +189,7 @@
           "active": false,
           "left": 569.6058,
           "top": 135.37,
-          "zIndex": 6,
+          "zIndex": 51,
           "widthName": 60,
           "widthComment": 60
         },
@@ -366,7 +366,7 @@
           "active": false,
           "left": 121.8754,
           "top": 679.5837,
-          "zIndex": 4,
+          "zIndex": 3,
           "widthName": 64.27685546875,
           "widthComment": 60
         },
@@ -451,7 +451,7 @@
           "active": false,
           "left": 1023.6127,
           "top": 14.5833,
-          "zIndex": 7,
+          "zIndex": 12,
           "widthName": 64.34033203125,
           "widthComment": 60
         },
@@ -605,7 +605,7 @@
           "active": false,
           "left": 588.8424,
           "top": 568.8883,
-          "zIndex": 2,
+          "zIndex": 1,
           "widthName": 64.83544921875,
           "widthComment": 60
         },
@@ -713,7 +713,7 @@
           "active": false,
           "left": 48.4019,
           "top": 44.7444,
-          "zIndex": 8,
+          "zIndex": 58,
           "widthName": 75.39794921875,
           "widthComment": 60
         },
@@ -844,7 +844,7 @@
           "active": false,
           "left": 115.0696,
           "top": 319.121,
-          "zIndex": 3,
+          "zIndex": 62,
           "widthName": 60,
           "widthComment": 60
         },
@@ -926,10 +926,10 @@
           }
         ],
         "ui": {
-          "active": true,
+          "active": false,
           "left": 592.5467,
           "top": 395.3708,
-          "zIndex": 12,
+          "zIndex": 16,
           "widthName": 60,
           "widthComment": 60
         },
@@ -1106,7 +1106,7 @@
           "active": false,
           "left": 1076.8296,
           "top": 392.6388,
-          "zIndex": 5,
+          "zIndex": 28,
           "widthName": 60,
           "widthComment": 60
         },
