@@ -4,7 +4,7 @@
     "width": 2000,
     "height": 2000,
     "scrollTop": -11.111110669595242,
-    "scrollLeft": -110.6944444168497,
+    "scrollLeft": -111.6944444168497,
     "zoomLevel": 1,
     "show": {
       "tableComment": true,
@@ -143,7 +143,7 @@
           "active": false,
           "left": 146.6671,
           "top": 65.8059,
-          "zIndex": 2,
+          "zIndex": 24,
           "widthName": 60,
           "widthComment": 60
         },
@@ -205,7 +205,7 @@
           "active": false,
           "left": 131.5279,
           "top": 306.5006,
-          "zIndex": 4,
+          "zIndex": 26,
           "widthName": 85.60498046875,
           "widthComment": 67
         },
@@ -223,21 +223,21 @@
             "default": "",
             "option": {
               "autoIncrement": false,
-              "primaryKey": false,
+              "primaryKey": true,
               "unique": false,
               "notNull": true
             },
             "ui": {
               "active": false,
               "pk": false,
-              "fk": true,
-              "pfk": false,
+              "fk": false,
+              "pfk": true,
               "widthName": 112.3095703125,
               "widthComment": 60,
               "widthDataType": 89.29296875,
               "widthDefault": 60
             },
-            "id": "a206ab07-146c-4c68-955a-5a162a6f2cf9"
+            "id": "b7178b4f-fb42-4ce7-8fcb-e121bf156356"
           },
           {
             "name": "UNIQUE_ID_AUTH_NAMES",
@@ -246,28 +246,28 @@
             "default": "",
             "option": {
               "autoIncrement": false,
-              "primaryKey": false,
+              "primaryKey": true,
               "unique": false,
               "notNull": true
             },
             "ui": {
               "active": false,
               "pk": false,
-              "fk": true,
-              "pfk": false,
+              "fk": false,
+              "pfk": true,
               "widthName": 158.0126953125,
               "widthComment": 97.5703125,
               "widthDataType": 89.29296875,
               "widthDefault": 60
             },
-            "id": "c4160219-e343-4b53-befb-8d46d37411b7"
+            "id": "8c6eec31-4709-4087-a4fa-ddce57c16cf9"
           }
         ],
         "ui": {
           "active": false,
           "left": 616.8614,
           "top": 168.6391,
-          "zIndex": 5,
+          "zIndex": 41,
           "widthName": 60,
           "widthComment": 60
         },
@@ -275,7 +275,15 @@
         "id": "68ddc40c-98f4-474b-8acb-119e7ebe9485"
       }
     ],
-    "indexes": []
+    "indexes": [
+      {
+        "name": "INX_UNIQUE_ID_USERS",
+        "columns": [],
+        "unique": true,
+        "id": "343219ac-48ae-42e6-bb81-bd3bff12c546",
+        "tableId": "68ddc40c-98f4-474b-8acb-119e7ebe9485"
+      }
+    ]
   },
   "memo": {
     "memos": []
@@ -283,7 +291,7 @@
   "relationship": {
     "relationships": [
       {
-        "identification": false,
+        "identification": true,
         "relationshipType": "OneN",
         "startRelationshipType": "Dash",
         "start": {
@@ -298,7 +306,7 @@
         "end": {
           "tableId": "68ddc40c-98f4-474b-8acb-119e7ebe9485",
           "columnIds": [
-            "a206ab07-146c-4c68-955a-5a162a6f2cf9"
+            "b7178b4f-fb42-4ce7-8fcb-e121bf156356"
           ],
           "x": 616.8614,
           "y": 196.1391,
@@ -306,10 +314,10 @@
         },
         "constraintName": "fk_users_to_auths",
         "visible": true,
-        "id": "c19d2988-002f-4700-99e4-d4cafe0fde7d"
+        "id": "0b4e769a-f46c-40cd-8552-90159daddae1"
       },
       {
-        "identification": false,
+        "identification": true,
         "relationshipType": "OneN",
         "startRelationshipType": "Dash",
         "start": {
@@ -324,15 +332,15 @@
         "end": {
           "tableId": "68ddc40c-98f4-474b-8acb-119e7ebe9485",
           "columnIds": [
-            "c4160219-e343-4b53-befb-8d46d37411b7"
+            "8c6eec31-4709-4087-a4fa-ddce57c16cf9"
           ],
           "x": 616.8614,
           "y": 251.1391,
           "direction": "left"
         },
-        "constraintName": "fk_autho_names_to_auths",
+        "constraintName": "fk_auth_names_to_auths",
         "visible": true,
-        "id": "768ab595-5b0b-4451-bfe2-228cdfc3a3fa"
+        "id": "ef1c609f-0037-4cc5-8e83-1ab7e87fdeba"
       }
     ]
   }
